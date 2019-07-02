@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+}
+
+/* This is the Main Body */
+
+body {
+    font-size: 24px;
+    line-height: 34px;
+    font-family: 'Times New Roman', 'Times', sans-serif;
+    color: black;
+    background: url('../../assets/images/tic-tac-toe/tic-tac-toe.png');
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 0px;
+    clear: both;
+}
+
+
+h1, h2, h3, p {
+    margin-bottom: 0px;
+}
+
+
+/*p:last-child {
+    margin-bottom: 0;
+}*/ 
+
+
+h1, h2, h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: 700;
+    color: black;
+    background: clear;
+}
+
+
+h1 {
+    font-size: 35px;
+    line-height: 40px;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+
+
+h2, h3 {
+    font-size: 22px;
+}
+
+
+/* This is the Header */
+
+
+#topbanner {
+    background: none;
+    margin: 0 0 30px;
+    z-index: 99;
+    color: black;
+    overflow: auto;
+    border-bottom: 2px solid rgb(66, 2, 2);
+    position: fixed;
+    width:100%;
+}
+
+
+#brand {
+    width: 250px;
+    height: 90px;
+    background: none;
+    float: left;
+    font-family: 'Georgia', Times New Roman, Times, serif;
+    text-align: center;
+    line-height: 90px;
+    color: black;
+    font-weight: 700;
+    font-size: 100px;
+    text-decoration: none;
+}
+
+
+nav {
+    float: right;
+    margin-top: 25px;
+}
+
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    display: inline-block;
+    border-left: 1px solid black;
+    padding-left: 15px;
+    line-height: 22px;
+}
+
+
+nav a:first-child {
+    border-left: 0 none;
+}
+
+
+/* Main About */
+
+
+#middlecontainer {
+    padding-top: 130px;
+}
+
+
+.middlesection {
+    background-color: ;
+    padding: 30px;
+    margin: 0 0 40px 0;
+    width: 100%;
+    float: left;
+    border: 1px solid black;
+}
+
+
+.mainimage {
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    float: left;
+    margin-right: 25px;
+}
+
+
+footer {
+    background: darkgrey;
+    color: white;
+    padding: 30px 0 0 0;
+    clear: both;
+    border-top: 8px solid gray;
+    color: grey;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+/*I added this from someone elses code becaue I couldn't get it to work otherwise (Still doesn't work properly)
+I changed some stuff to see what happens when I do this or that, but this is not my code. ----v
+*/
+
+
+.work {
+    width: 274px;
+    overflow: auto;
+    position: relative;
+    float: left;
+    margin: 20px 0 25px;
+}
+
+
+.work:nth-child(even) {
+    margin-right: 40px;
+}
+
+
+.work img {
+    width: 100%;
+    border: 0 none;
+    opacity: .8;
+}
+
+
+.work h3 {
+    font-weight: 350px;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    background: teal;
+    position: absolute;
+    bottom: 25px;
+    padding: 10px;
+    width: 100%;
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+
+#contact-form ul {
+    margin-bottom: 25px;
+}
+
+
+#contact-form li {
+    margin-bottom: 15px;
+}
+
+
+label, input[type=text], input[type=email], textarea {
+    display: block;
+    width: 100%;
+}
+
+
+
+
+input[type=text], input[type=email], textarea {
+    height: 45px;
+    border: 1px solid white;
+    font-size: 14px;
+    padding: 0 15px;
+}
+
+input[type=submit] {
+    background: teal;
+    border: 0 none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+textarea {
+    height: 200px;
+}
+
+
+
